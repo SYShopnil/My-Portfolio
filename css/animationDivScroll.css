@@ -1,0 +1,111 @@
+/*************?About Part**************/
+/**Image part**/
+.about_wrap .aboutImgPicker,
+.about_wrap .slider_picker {
+	opacity: 1;
+}
+.about_wrap .aboutImgPicker.animate__animated,
+.about_wrap .slider_picker.animate__animated {
+	opacity: 1;
+}
+
+/************?My service part*******/
+/**Header part*/
+.service_head .MyServiceHeader,
+.service_content .webDesignPicker,
+.service_content .web_development_picker,
+.service_content .videoEditPick,
+.service_content .cinematographyPicker,
+.service_content .photographyPicker {
+	opacity: 0;
+}
+.service_head .MyServiceHeader.animate__animated,
+.service_content .webDesignPicker.animate__animated,
+.service_content .web_development_picker.animate__animated,
+.service_content .videoEditPicker.animate__animated,
+.service_content .cinematographyPicker.animate__animated,
+.service_content .photographyPicker.animate__animated {
+	opacity: 1;
+}
+
+/*******************?My skill Part start******************/
+.skill_fullContainer .skill_Header {
+	opacity: 0;
+}
+.skill_fullContainer .skill_Header.animate__animated {
+	opacity: 1;
+}
+
+/***********?Education part********************/
+.education_fullContainer .eduHeadPick,
+.edu_content .schollPicker,
+.edu_content .collegePicker,
+.edu_content .varsityPicker {
+	opacity: 0;
+}
+.education_fullContainer .eduHeadPick.animate__animated,
+.edu_content .schollPicker.animate__animated,
+.edu_content .collegePicker.animate__animated,
+.edu_content .varsityPicker.animate__animated {
+	opacity: 1;
+}
+
+/*****************?Projet party *******************/
+.project_fullContaine .projectHeaderPicker,
+.project_content .project1Picker,
+.project_content .project2Picker,
+.project_content .project3Picker,
+.project_content .project4Picker,
+.project_content .project5Picker {
+	opacity: 0;
+}
+.project_fullContaine .projectHeaderPicker.animate__animated,
+.project_content .project1Picker.animate__animated,
+.project_content .project2Picker.animate__animated,
+.project_content .project3Picker.animate__animated,
+.project_content .project4Picker.animate__animated,
+.project_content .project5Picker.animate__animated {
+	opacity: 1;
+}
+
+/*************?Travel Part start***********/
+.travel_fullContainer .travelHeaderPicker,
+.travel_history_content .ctg2018Picker,
+.travel_history_content .cox2018Picker,
+.travel_history_content .stmartin2018Picker,
+.travel_history_content .syl2018Picker,
+.travel_history_content .cox2019Picker,
+.travel_history_content .ctg2019Picker,
+.travel_history_content .khul2019Picker,
+.travel_history_content .stMartin2019PIcker {
+	opacity: 0;
+}
+.travel_fullContainer .travelHeaderPicker.animate__animated,
+.travel_history_content .ctg2018Picker.animate__animated,
+.travel_history_content .cox2018Picker.animate__animated,
+.travel_history_content .stmartin2018Picker.animate__animated,
+.travel_history_content .syl2018Picker.animate__animated,
+.travel_history_content .cox2019Picker.animate__animated,
+.travel_history_content .ctg2019Picker.animate__animated,
+.travel_history_content .khul2019Picker.animate__animated,
+.travel_history_content .stMartin2019PIcker.animate__animated {
+	opacity: 1;
+}
+
+/***************?Contact me part*************/
+.contactFullcontainer .contact_head .contactHeaderPicker,
+.contactFullcontainer .contactPicker {
+	opacity: 0;
+}
+.contactFullcontainer .contact_head .contactHeaderPicker.animate__animated,
+.contactFullcontainer .contactPicker.animate__animated {
+	opacity: 1;
+}
+
+/*********************?Footer part *********************/
+.footer_wrap .socialPicker {
+	opacity: 0;
+}
+.footer_wrap .socialPicker.animate__animated {
+	opacity: 1;
+}

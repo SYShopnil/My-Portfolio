@@ -1,0 +1,16 @@
+/***?For nav bar font**/
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/**font-family: 'Indie Flower', cursive;
+****/
+
+/*****?For Type.js part Header Hello! part****/
+@font-face {
+	font-family: "righteous";
+	src: url("../font/Indie_Flower/IndieFlower-Regular.ttf") format("truetrype"),
+		url("../font/Indie_Flower/IndieFlower-Regular.eot") format("eot"),
+		url("../font/Indie_Flower/IndieFlower.svg#righteous") format("svg"),
+		url("../font/Indie_Flower/IndieFlower.woff") format("woff");
+}
+
+/******?For header type.js part*****/
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap"); /*****font-family: 'Allura', cursive;****/

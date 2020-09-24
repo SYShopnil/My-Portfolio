@@ -1,0 +1,521 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+.about_img img {
+	width: 100%;
+	height: 100%;
+}
+.owl_caresol_wrap .content_wrap .item1 .iteam_inner_wrap p {
+	font-size: 93%;
+}
+.owl-prev,
+.owl-next {
+	display: none;
+}
+.service_content .box_service {
+	flex-flow: wrap;
+}
+.skill_content .box_skill {
+	min-height: 100%;
+}
+/*.box_skill .icon img {
+	width: 35%;
+	height: auto;
+}*/
+.box_skill .data h2 {
+	font-size: 115%;
+
+	font-weight: 600;
+}
+.form_wrap .form_input,
+.form_wrap .message_part {
+	margin-bottom: 2%;
+}
+.form_wrap .form_caption {
+	margin-bottom: 1%;
+}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+/**********For Tablet********/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/**********?Header part start************/
+
+	/*****Nav part********/
+	.nav_Fullwrap .logo_wrap {
+		width: 17%;
+	}
+	.logo_wrap img {
+		width: 110px;
+		height: auto;
+	}
+	.nav_Fullwrap .navwrap {
+		width: 80%;
+	}
+	.navwrap ul {
+		width: 100%;
+		flex-flow: row;
+	}
+	.navwrap ul li a {
+		font-size: 65%;
+	}
+
+	/*****Content part****/
+	.head_content_wrap .intro_wrap {
+		width: 43%;
+		height: 45%;
+	}
+	/*.owl_caresol_wrap .content_wrap .item1 .iteam_inner_wrap {
+		width: 100%;
+		height: auto;
+	}*/
+	.owl_caresol_wrap .content_wrap .item1 .iteam_inner_wrap p {
+		font-size: 80%;
+	}
+	.owl-dots {
+		top: 100%;
+	}
+	.owl_caresol_wrap .content_wrap .item2 .iteam_inner_wrap .all {
+		font-size: 80%;
+	}
+	.box_service .icon {
+		font-size: 85%;
+	}
+	.box_service h1 {
+		font-size: 120%;
+	}
+	.box_service p {
+		font-size: 67%;
+	}
+
+	/*************?Skill part*************/
+	.box_skill .icon img {
+		width: 35%;
+		height: auto;
+	}
+	.box_skill .data h2 {
+		font-size: 115%;
+
+		font-weight: 600;
+	}
+	/**********?Education part*****/
+	.edu_content .box_edu {
+		width: 50%;
+	}
+	/*********?Travel part*******/
+	.travel_history_content .travelHistory {
+		width: 46%;
+	}
+	/********?Contact part*****/
+	.form_wrap .form_input,
+	.form_wrap .message_part {
+		margin-bottom: 3%;
+	}
+	.form_wrap .form_caption {
+		margin-bottom: 2%;
+	}
+	/********?Scroll Up arrow part*****/
+	.topArrow {
+		padding: 8px 12px;
+	}
+}
+
+/*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+    ---------------------------------------------
+    cols    1     2      3
+    px      68    160    252    */
+/**********For All Mobile********/
+@media only screen and (max-width: 767px) {
+	/**********?Header part start************/
+
+	/*****Content part****/
+	.head_content_wrap .intro_wrap {
+		width: 43%;
+		height: 45%;
+	}
+	/*.owl_caresol_wrap .content_wrap .item1 .iteam_inner_wrap {
+		width: 100%;
+		height: auto;
+	}*/
+	.owl_caresol_wrap .content_wrap .item2 .iteam_inner_wrap .all {
+		margin-bottom: 3%;
+	}
+
+	.owl_caresol_wrap .content_wrap .item1 .iteam_inner_wrap p {
+		font-size: 60%;
+	}
+	.owl-dots {
+		top: 100%;
+	}
+	.owl_caresol_wrap .content_wrap .item2 .iteam_inner_wrap .all {
+		font-size: 60%;
+	}
+	.owl_caresol_wrap .content_wrap .item2 .iteam_inner_wrap {
+		width: 65%;
+	}
+	.box_service .icon {
+		font-size: 85%;
+	}
+	.box_service h1 {
+		font-size: 105%;
+	}
+	.box_service p {
+		font-size: 67%;
+	}
+	.owl_caresol_wrap .content_wrap .item1 .iteam_inner_wrap p {
+		font-size: 50%;
+	}
+	.owl_caresol_wrap .content_wrap .item2 .iteam_inner_wrap .all {
+		font-size: 58%;
+	}
+	/**********?MY Service part******/
+	.service_content .box_service {
+		width: 100%;
+	}
+	.hover_part .hireMe {
+		padding: 10px 40px;
+	}
+	.service_fullContainer .service_head h1 {
+		font-size: 150%;
+	}
+
+	/*************?Skill part*************/
+	/*.box_skill .icon img {
+		width: 35%;
+		height: auto;
+	}*/
+	.box_skill .data h2 {
+		font-size: 115%;
+
+		font-weight: 600;
+	}
+	.skill_fullContainer .skill_head h1 {
+		font-size: 150%;
+	}
+	.skill_content .box_skill {
+		width: 100%;
+	}
+	/*.box_skill .icon img {
+		width: 17%;
+	}*/
+	.box_skill .data h2 {
+		font-size: 130%;
+	}
+	.box_skill .data .skillPicker {
+		font-size: 158%;
+	}
+	/**********?Education part*****/
+	.edu_content .box_edu {
+		width: 100%;
+	}
+	.box_edu .data_wrap h2 {
+		font-size: 100%;
+	}
+	.box_edu .data_wrap h1 {
+		font-size: 120%;
+	}
+	.box_edu .data_wrap p {
+		font-size: 70%;
+	}
+	.education_fullContainer .edu_head h1 {
+		font-size: 150%;
+	}
+	/*********?My project*******/
+	.project_content .box_project {
+		width: 100%;
+	}
+	.project_fullContaine .project_head h1 {
+		font-size: 150%;
+	}
+	.box_project .data a h2 {
+		font-size: 100%;
+	}
+	/*********?Travel part*******/
+	.travel_history_content .travelHistory {
+		width: 100%;
+	}
+	.travel_fullContainer .travel_header h1 {
+		font-size: 150%;
+	}
+	.box_project .image .hoverPart .btn_part {
+		padding: 12px 12px;
+	}
+	/********?Contact part*****/
+	.form_wrap .form_input,
+	.form_wrap .message_part {
+		margin-bottom: 4%;
+	}
+	.form_wrap .form_caption {
+		margin-bottom: 3%;
+	}
+	.contactFullcontainer .contact_head h1 {
+		font-size: 150%;
+	}
+	/********?Scroll Up arrow part*****/
+	.topArrow {
+		padding: 8px 12px;
+	}
+	/********?Footer part*******/
+	.credit_wrap .credite_inner p {
+		font-size: 58%;
+	}
+	.contuct_wrap .form_wrap {
+		overflow: auto;
+	}
+	.form_wrap .submit {
+		width: 100%;
+	}
+	/*******Scocia share part*****/
+	.social_share_wrap .social_inner .social_all {
+		width: 100%;
+	}
+	.social_share_wrap .social_inner .social_all {
+		font-size: 80%;
+	}
+	/*********Top arrow scroll part*****/
+	.topArrow {
+		padding: 7px 10px;
+	}
+}
+
+/*		Wide Mobile Layout: 480px.
+            Gutters: 24px.
+            Outer margins: 22px.
+            Inherits styles from: Default Layout, Mobile Layout.
+    ------------------------------------------------------------
+    cols    1     2      3      4      5
+    px      68    160    252    344    436    */
+/**********For Android********/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/**********?Header part start************/
+
+	/*****Content part****/
+	.head_content_wrap .intro_wrap {
+		width: 43%;
+		height: 45%;
+	}
+	/*.owl_caresol_wrap .content_wrap .item1 .iteam_inner_wrap {
+		width: 100%;
+		height: auto;
+	}*/
+	.owl_caresol_wrap .content_wrap .item1 .iteam_inner_wrap p {
+		font-size: 60%;
+	}
+	.owl-dots {
+		top: 100%;
+	}
+	.owl_caresol_wrap .content_wrap .item2 .iteam_inner_wrap .all {
+		font-size: 60%;
+	}
+	.owl_caresol_wrap .content_wrap .item2 .iteam_inner_wrap {
+		width: 65%;
+	}
+	.box_service .icon {
+		font-size: 85%;
+	}
+	.box_service h1 {
+		font-size: 105%;
+	}
+	.box_service p {
+		font-size: 67%;
+	}
+	/**********?MY Service part******/
+	.service_content .box_service {
+		width: 100%;
+	}
+	.hover_part .hireMe {
+		padding: 10px 40px;
+	}
+	.service_fullContainer .service_head h1 {
+		font-size: 150%;
+	}
+
+	/*************?Skill part*************/
+	/*.box_skill .icon img {
+		width: 35%;
+		height: auto;
+	}*/
+	.box_skill .data h2 {
+		font-size: 115%;
+
+		font-weight: 600;
+	}
+	.skill_fullContainer .skill_head h1 {
+		font-size: 150%;
+	}
+	.skill_content .box_skill {
+		width: 100%;
+	}
+	/*.box_skill .icon img {
+		width: 17%;
+	}*/
+	.box_skill .data h2 {
+		font-size: 130%;
+	}
+	.box_skill .data .skillPicker {
+		font-size: 158%;
+	}
+	/**********?Education part*****/
+	.edu_content .box_edu {
+		width: 100%;
+	}
+	.education_fullContainer .edu_head h1 {
+		font-size: 150%;
+	}
+	/*********?My project*******/
+	.project_content .box_project {
+		width: 100%;
+	}
+	.project_fullContaine .project_head h1 {
+		font-size: 150%;
+	}
+	/*********?Travel part*******/
+	.travel_history_content .travelHistory {
+		width: 100%;
+	}
+	.travel_fullContainer .travel_header h1 {
+		font-size: 150%;
+	}
+	/********?Contact part*****/
+	.form_wrap .form_input,
+	.form_wrap .message_part {
+		margin-bottom: 4%;
+	}
+	.form_wrap .form_caption {
+		margin-bottom: 3%;
+	}
+	.contactFullcontainer .contact_head h1 {
+		font-size: 150%;
+	}
+	/********?Scroll Up arrow part*****/
+	.topArrow {
+		padding: 8px 12px;
+	}
+	/********?Footer part*******/
+	.credit_wrap .credite_inner p {
+		font-size: 58%;
+	}
+}
+
+/*******?Responsive menu part*****/
+@media (max-width: 767px) {
+	.nav_Fullwrap {
+		display: block;
+		position: relative;
+	}
+	.nav_Fullwrap .nav_toogle_wrap {
+		/*border: 1px solid red;*/
+		display: block;
+		position: absolute;
+		top: 40%;
+		right: 9%;
+	}
+	.fa {
+		color: lemonchiffon;
+		font-size: 135%;
+	}
+	.navwrap {
+		text-align: center;
+		background: rgb(77, 128, 128, 0.8);
+		padding-top: 3%;
+		padding-bottom: 3%;
+		width: 100%;
+		position: absolute;
+		left: 200%;
+		transition: all 1.2s;
+		z-index: 9999999;
+	}
+	.navwrap.active {
+		left: 0;
+	}
+	.navwrap.active1 {
+		left: 0;
+	}
+	.navwrap ul {
+		display: inline-block;
+	}
+	/**Hover part*/
+	.navwrap ul li a::before {
+		left: 10%;
+	}
+	.navwrap ul li:hover a::before {
+		width: calc(100% - 13%);
+	}
+	.navwrap ul li.active a::before {
+		width: calc(100% - 13%);
+	}
+	.navwrap ul li a::before {
+		background: rgb(13, 13, 13, 0.7);
+	}
+}
+/**********?Only small mobile*********/
+@media (max-width: 479px) {
+	.intro_wrap h2 {
+		font-size: 205%;
+	}
+	.intro_wrap .type {
+		font-size: 56%;
+	}
+	.owl_caresol_wrap .content_wrap .item2 .iteam_inner_wrap .all {
+		margin-bottom: 5%;
+	}
+	.box_skill .data h2 {
+		font-size: 104%;
+	}
+	.box_skill .data .skillPicker {
+		font-size: 125%;
+	}
+	.project_fullContaine .project_head h1,
+	.travel_fullContainer .travel_header h1,
+	.service_fullContainer .service_head h1,
+	.skill_fullContainer .skill_head h1,
+	.education_fullContainer .edu_head h1,
+	.contactFullcontainer .contact_head h1 {
+		font-size: 115%;
+	}
+	.box_edu .data_wrap h2 {
+		font-size: 93%;
+	}
+	.box_edu .data_wrap h1 {
+		font-size: 112%;
+	}
+	.box_edu .data_wrap p {
+		font-size: 60%;
+	}
+	.box_project .image .hoverPart .btn_part a {
+		font-size: 70%;
+	}
+	.travelHistory .cover_pic .hover_part h1 {
+		font-size: 80%;
+	}
+	.travelHistory .cover_pic .hover_part .click_btn {
+		font-size: 64%;
+	}
+	.travelHistory .details_wrap p {
+		font-size: 85%;
+	}
+	.travelHistory .details_wrap .fullAllbum_btn {
+		font-size: 70%;
+	}
+	.form_wrap .form_caption {
+		font-size: 70%;
+	}
+	.form_wrap .form_input,
+	.form_wrap .message_part {
+		font-size: 60%;
+	}
+	.social_share_wrap .social_inner .social_all {
+		font-size: 66%;
+	}
+}
